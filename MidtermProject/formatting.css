@@ -1,0 +1,33 @@
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+#navExpander{
+    animation-name: navExpand;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+#navTitle {
+    text-align: left;
+}
+
+/*Animations*/
+@keyframes navExpand {
+    0%   {transform: rotate(0deg);}
+    100% {transform: rotate(-90deg);}
+  }
