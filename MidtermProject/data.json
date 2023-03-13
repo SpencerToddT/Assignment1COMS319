@@ -1,0 +1,67 @@
+{
+    "HikesNA": [
+        {
+            "title":"Sunny Peak",
+            "time":"4.5 Hours",
+            "description":"This intermidiate level hike is a fan favorite. The trail is well laid and the peak is nice in warm during the summer months",
+            "image":"./images/hike1.jpg"        
+        },
+        {
+            "title":"Grover's Passage",
+            "time":"2 Hours",
+            "description":"A beginner level hike that is fun for all ages. This forest path has small stops along the path with information about the surrounding plants and wildlife",
+            "image":"./images/hike2.jpg"        
+        },
+        {
+            "title":"The Dragon's Spine",
+            "time":"7 Hours",
+            "description":"This hike should only be attempted by advanced level hikers. The trail is somewhat trecherous and snakes over the mountains. Its perfect for anyone seeking adventure!",
+            "image":"./images/hike3.jpg"        
+        },
+        {
+            "title":"Wonderland",
+            "time":"5.5 Hours",
+            "description":"This winter hike is great for those who don't mind colder temperatures. You will leave your mark as you travel across this winter wonderland, just make sure to dress warm",
+            "image":"./images/hike4.jpg"        
+        },
+        {
+            "title":"The Merry March",
+            "time":"1.5 Hours",
+            "description":"This hiking loop is brimming with some of the best senery North America has to offer. As you traverse through this evergreen forest you will meet all kinds of wildlife.",
+            "image":"./images/hike5.jpg"        
+        }
+    ],
+
+    "HikesEU": [
+        {
+            "title":"Moss Managerie",
+            "time":"3 Hours",
+            "description":"This hike will take you through a vibrant forest overrun with moss. Its stunning visuals rival that of any other hike in the continent of Europe.",
+            "image":"./images/hike6.jpg"        
+        },
+        {
+            "title":"Teetering Falls",
+            "time":"8.5 Hours",
+            "description":"This hike is a long and difficult trek, but the falls at the end make it worth it. We advise that you do not swim near the falls.",
+            "image":"./images/hike7.jpg"        
+        },
+        {
+            "title":"The Nomad's Way",
+            "time":"4.5 Hours",
+            "description":"Walk amongst the clouds on this spectacular path. It was recently redone so it is the perfect time to give it a try!",
+            "image":"./images/hike8.jpg"        
+        },
+        {
+            "title":"Lord of Lakes",
+            "time":"3.5 Hours",
+            "description":"This lake is a popular spot for travelers of all kinds. The mountain winds and freezing lake can make temperatures quite cold, so prepare accordingly.",
+            "image":"./images/hike9.jpg"        
+        },
+        {
+            "title":"Dusty Dunes",
+            "time":"6 Hours",
+            "description":"This hike is not for the faint of heart. The slippery sand makes for difficult footing and tired feet, but if you crave a desert adventure you've found your trail!",
+            "image":"./images/hike10.jpg"        
+        }
+    ]
+}

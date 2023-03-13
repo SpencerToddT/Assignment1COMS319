@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Spencer Thiele, Kyle Kohl">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Midterm Project Team 32 - North American Hikes</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/formatting.css">
+
+</head>
+<body>
+  <!--NAV BAR START--------------------------------------------------------------->
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">NA Hikes</h4>
+            <p class="text-muted"></p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Pages</h4>
+            <ul class="list-unstyled">
+              <li><a href="./index.html" class="text-white">Home</a></li>
+              <li><a href="./hikesNA.html" class="text-white">North America Hikes</a></li>
+              <li><a href="./hikesEU.html" class="text-white">Europe Hikes</a></li>
+              <li><a href="./aboutUs.html" class="text-white">About Us</a></li>
+              <li><a href="https://www.pexels.com/search/Hike/" class="text-white" target="_blank">Images Source</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="./Home.html" class="navbar-brand d-flex align-items-center">
+          <strong id="navTitle">Team 32</strong>
+        </a>
+        <button style="height:8%;width:6%" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
+          aria-label="Toggle navigation" width="6%">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!--NAV BAR END-------------------------------------------------------------------->
+
+  <!--HEADER TEXT--------------->
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">North America Hikes</h1>
+        <p class="lead text-muted">Browse our avaliable hiking paths in North America</p>
+        <!--<p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>-->
+      </div>
+    </div>
+  </section>
+  <!--HEADER END-------------------->
+
+  <!--SET UP CARDS-->
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+  <!--CARD--------------------------------->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img id="imageH1" src="./images/hike3.jpg" alt = "Hike1">
+            <div class="card-body">
+              <div id="textH1"></div><!--<p class="card-text">Text</p>-->
+              <div class="d-flex justify-content-between align-items-center">
+                <!--<div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>-->
+                <div id="timeH1"></div><!--<small class="text-muted">8 left in stock</small>-->
+              </div>
+            </div>
+          </div>
+        </div>
+  <!--CARD END-------------------------------------------->
+  <!--CARD--------------------------------->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img id="imageH2" src="./images/hike3.jpg" alt = "Hike2">
+            <div class="card-body">
+              <div id="textH2"></div><!--<p class="card-text">Text</p>-->
+              <div class="d-flex justify-content-between align-items-center">
+                <!--<div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>-->
+                <div id="timeH2"></div><!--<small class="text-muted">8 left in stock</small>-->
+              </div>
+            </div>
+          </div>
+        </div>
+  <!--CARD END-------------------------------------------->
+  <!--CARD--------------------------------->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img id="imageH3" src="./images/hike3.jpg" alt = "Hike3">
+            <div class="card-body">
+              <div id="textH3"></div><!--<p class="card-text">Text</p>-->
+              <div class="d-flex justify-content-between align-items-center">
+                <!--<div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>-->
+                <div id="timeH3"></div><!--<small class="text-muted">8 left in stock</small>-->
+              </div>
+            </div>
+          </div>
+        </div>
+  <!--CARD END-------------------------------------------->
+  <!--CARD--------------------------------->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img id="imageH4" src="./images/hike3.jpg" alt = "Hike4">
+            <div class="card-body">
+              <div id="textH4"></div><!--<p class="card-text">Text</p>-->
+              <div class="d-flex justify-content-between align-items-center">
+                <!--<div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>-->
+                <div id="timeH4"></div><!--<small class="text-muted">8 left in stock</small>-->
+              </div>
+            </div>
+          </div>
+        </div>
+  <!--CARD END-------------------------------------------->
+  <!--CARD--------------------------------->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img id="imageH5" src="./images/hike8.jpg" alt = "Hike5">
+            <div class="card-body">
+              <div id="textH5"></div><!--<p class="card-text">Text</p>-->
+              <div class="d-flex justify-content-between align-items-center">
+                <!--<div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>-->
+                <div id="timeH5"></div><!--<small class="text-muted">8 left in stock</small>-->
+              </div>
+            </div>
+          </div>
+        </div>
+  <!--CARD END-------------------------------------------->
+      </div>
+    </div>
+  </div>
+  <!--CARD SETUP END-->
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
